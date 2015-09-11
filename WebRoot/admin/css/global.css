@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0;padding:0;font:宋体, Verdana, Geneva, sans-serif;}
+a{text-decoration:none;color:black;}
+ul{margin:0;padding:0;}
+li{list-style-type:none;margin:0;padding:0;}
+img{border:0;margin:0;padding:0}
+h1{margin:0;}
+font{font-size:13px;}
+input{padding:2px;}
+form{margin:0;}
+#wrap{overflow:hidden;}   /* 网页最外面的div*/
+.clear{clear:both;}
+
+/** banner **/
+#blank_font_style{display:block;color:#5E9BBB;font-weight:bold;margin:10px;}
+#banner{height:127px;background:url(../images/banner.jpg) 0 0 no-repeat;border-bottom:1px solid gray;}
+#welcome{color:white;float:right;height:20px;line-height:20px;font-size:13px;font-weight:bold;margin-right:10px;margin-top:4px;}
+#welcome a{color:white;}
+#welcome a:hover{color:gold;}
+
+/** nav **/
+#nav{width:160px;background:white;height:100%;padding-left:5px;overflow:hidden;}
+#nav ul{margin:0;}
+#nav ul li{width:155px;}
+#nav ul li a{height:22px;line-height:22px;display:block;font-weight:bold;margin-top:3px;
+text-align:left;/*color:#5E9BBB;*/font-size:12px;padding-left:30px;}
+#nav ul li a:hover{color:gold;}
+.menu{background:url(../images/menu_bt.jpg) no-repeat;/*background:#5E9BBB*/;}
+.menu a{color:#5E9BBB;}
+.child{background:url(../images/menu_icon.gif) 5px 50% no-repeat;color:#5E9BBB;}
+
+/** position **/
+#position{height:22px;line-height:22px;color:#69A6C6;font-weight:bold;
+border-bottom:1px solid #69A6C6;font-size:12px;text-indent:10px;margin-top:5px;margin-left:10px;}
+#position a{color:#69A6C6;height:22px;line-height:22px;}
+#position a:hover{color:gold;}
+#addInfo{position:absolute;right:10px;top:2px;background:#69A6C6;}
+#addInfo a{color:white;font-size:12px;padding:0 5px;}
+
+
+/*** content **/
+#content{text-align:left;padding-left:10px;padding-top:10px;}
+#content table{margin-top:10px;margin-bottom:10px;border:none;border-bottom:1px #ccc solid;border-right:1px #ccc solid;}
+#content table tr th,#content table tr td{height:35px;line-height:35px;font-size:13px;
+border:0;border-top:1px #ccc solid;border-left:1px #ccc solid;text-align:center;padding: 0 4px;}
+#content table tr th{background:/*#5E9BBB;*/url(../images/table_bg.png);color:/*#5E9BBB*/white;border-top:0;height:25px;line-height:25px;font-weight:bold;}
+#content table tr td a:hover{color:#5E9BBB;}
+#content form{margin:10px 0; }
+
+/** listLaboratory.jsp **/
+#la_list_ltms tr td{text-align:left;}
+
+/** showmsg **/
+#showMsg{height:20px;line-height:20px;font-size:14px;width:300px;padding:5px;color:#FF0000;background-color:#FFFFFF;z-index:1000;
+border:1px solid #ccc;}
+
+/** page **/
+#page{text-align:left;}
+#page table{height:20px;line-height:20px;text-align:center;margin-top:10px;border:none;}
+#page table tr{}
+#page table tr td{height:20px;line-height:20px;padding:0;font-size:13px;border:1px #ccc solid;margin-right:5px;}
+#page table tr td a{display:block;}
+#page table tr td a:hover{background:#5E9BBB;color:white;}
+.char{width:50px;}
+.num{width:20px;}
+#selectA{background:#5E9BBB;color:white;}
+#total{width:130px;height:20px;text-align:center;}
+
+/** exTd **/
+.exTd1{width:180px;}
+.exTd2{}	
+.exTd3{}
+.exTd4{width:25px;}
+.exTd5{}
+.exTd6{width:160px;}
+.exTd1,.exTd2,.exTd3,.exTd4,.exTd5,.exTd6{padding:0 5px;}
+.exTr td{padding:0 5px;}
+
+/** syllabus **/
+#syllabus {border:1px solid #ccc;text-align:center;width:100%;height:100%;}
+#syllabus tr td{font-size:12px;}
+
+/** newsContent **/
+#newsContent{text-align:left;padding-left:10px;padding-top:10px;}
+#newsContent table{margin-top:5px;margin-bottom:5px; border:none;border-left:1px solid #ccc;border-top:1px solid #ccc;}
+#newsContent table tr td{margin-top:10px;margin-bottom:10px;font-size:13px;padding:0 5px;border-right:1px solid #ccc;border-bottom:1px solid #ccc;}
+	
+/** left/rightTD **/
+.TD_Left{height:25px;line-height:25px;font-size:13px;font-weight:bold;width:70px;padding:0 5px;text-align:left;background:url(../images/table_bg.png);color:white;}
+.TD_Right{padding-left:5px;text-align:left;padding-right:5px;}
+
+/** detailInfoContent **/
+.detailInfoContent{text-align:left;padding-left:10px;padding-top:10px;font-size:13px;}
+.detailInfoContent table{margin-top:10px;margin-bottom:10px;
+border:none;border-left:1px solid #ccc;border-bottom:1px solid #ccc;}
+.detailInfoContent table tr td{height:25px;line-height:25px;
+border:0;border-top:1px #ccc solid;border-right:1px #ccc solid;font-size:13px;}
+
+/** others **/
+.showTD{padding:0 5px;}
+.ajax_de{font-size:14px;margin-top:10px;}
+.groupNum_ex{width:17px;}
+.ps_foot{border:1px solid #ccc;margin-left:10px;padding:5px;font-size:14px;}
+.la_pic_ltms{width:200px;border:1px solid #ccc;margin:3px 0;}
+#error_return{display:block;height:20px;line-height:20px;margin:3px 0;}
+#error_return a{font-size:14px;color:blue;text-decoration:underline;}
+#error_return a:hover{color:red;}
+.regulation_de_td{height:22px;line-height:22px;font-size:13px;padding-left:5px;}
+.no_result_msg{font-size:13px;margin-top:10px;margin-bottom:10px;color:red;}
+.form_btn{height:25px;line-height:150%;font-size:13px;color:#2d2d2d;padding:0 5px;width:45px;}
+.form_btn2{height:25px;line-height:150%;font-size:13px;color:#2d2d2d;padding:0 5px;}
+.form_btn:hover{cursor:pointer;color:#336044;}
+.form_btn2:hover{cursor:pointer;color:#336044;}
+
+/** addExperiment.jsp **/
+#sep_week{}
+.ex_class_td{float:left;height:30px;line-height:30px;width:900px;}
+.groupInfo_textarea{width:400px;}
+#more_teacher_info_ltms{height: 30px;line-height: 30px;float: left;}
+#more_teacher_info_ltms_other{width:350px;height: auto;line-height: 100%;float: left;}
+#more_teacher_info_ltms_other div{}
+#music_teacher_ltms{font-size: 13px;margin: 0 5px;}
+
+.timeInfo{border:1px #ddd solid;margin:5px;padding:5px;padding-bottom:1px;}
+
+/** modifyPassword.jsp **/
+.input1{width:96%;border:none;}
+
+
+/** 自动联想下拉列表**/
+.ui-combobox {
+    position: relative;
+    display: inline-block;
+    margin-left:5px;
+    width:20px;
+}
+.ui-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+    /* support: IE7 */
+    *height: 1.7em;
+    *top: 0.1em;
+}
+.ui-combobox-input {
+    margin: 0;
+    padding: 0.3em;
+}
+#combobox {width:250px;font-size:13px;}
+.ui-corner-left {border:none;}
+.ui-autocomplete-input {height:20px;line-height:20px;width:250px;padding:0;margin:2px 0;}

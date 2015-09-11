@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.zeroturnaround.com" xsi:schemaLocation="http://www.zeroturnaround.com http://www.zeroturnaround.com/alderaan/rebel-2_0.xsd">
+
+	<classpath>
+		<dir name="E:/ALL_WORKSPACE_CODING/IDEA/xiaorui/1_ltms4/WebRoot/WEB-INF/classes/production/sysxt">
+		</dir>
+	</classpath>
+
+	<web>
+		<link target="/">
+			<dir name="E:/ALL_WORKSPACE_CODING/IDEA/xiaorui/1_ltms4/WebRoot">
+			</dir>
+		</link>
+	</web>
+
+</application>

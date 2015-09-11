@@ -1,0 +1,258 @@
+*{
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	font-family:Microsoft YaHei;
+}
+
+.clear{
+	clear:both;
+}
+
+#head{
+	width:100%;
+	background-color:#F5F6F8;
+}
+
+.head_{
+	width:990px;
+	height:100px;
+	background:#F5F6F8;
+}
+
+.logo{
+	margin-top:14px;
+	margin-left:22px;
+}
+
+.nav{
+	float:right;
+	margin-top:33px;
+	margin-right:58px;
+}
+
+.nav li{
+	float:left;
+}
+
+.line{
+	float:left;
+	color:#797373;
+	margin-left:23px;
+	margin-right:17px;
+}
+
+.nav a:link     {color: #797373;}	/* 未访问的链接 */
+.nav a:visited	{color: #797373;}	/* 已访问的链接 */
+.nav a:hover   	{color: #797373;}	/* 鼠标移动到链接上 */
+.nav a:active  	{color: #797373;}	/* 选定的链接 */
+
+
+.navbar{
+	width:990px;
+	height:66px;
+	padding-top:135px;
+	background:url(../imgs/banner.png);
+}
+
+.navbar2{
+	margin-left:182px;
+}
+
+.navbar li{
+	float:left;
+	width:102px;
+	height:50px;
+	background:#FFF;
+	text-align:center;
+	line-height:50px;
+}
+
+.navbar img{
+	float:left;
+}
+
+.navbar a:link      {color:#919090;}	/* 未访问的链接 */
+.navbar a:visited	{color:#919090;}	/* 已访问的链接 */
+.navbar a:hover   	{color:#919090;}	/* 鼠标移动到链接上 */
+.navbar a:active  	{color:#919090;}	/* 选定的链接 */
+/*导航结束*/
+
+.banner{
+	display:block;
+}
+
+#content{
+	width:100%;
+	height:660px;
+	background:#F5F6F8;
+}
+
+.main{
+	height:396px;
+	width:990px;
+}
+
+.left{
+	width:269px;
+	float:left;
+	margin-top:96px;
+}
+
+.search{
+	width:167px;
+	height:243px;
+	float:left;
+	margin-left:70px;
+}
+
+.left_margin{
+	margin-left:10px;
+	width:157px;
+	height:11px;
+	background:#FFF;
+}
+
+.left_title{
+	width:167px;
+	height:35px;
+	background:url(../imgs/left_title.gif);
+	line-height:27px;
+	font-size:14px;
+	color:#FBFCFE;
+}
+
+.left_title p{
+	margin-left:15px;
+}	
+
+.form{ 	
+	background:#FFF;
+	padding-bottom:10px;
+}
+
+.left_cho{
+	width:157px;
+	margin-left:10px;
+	background:#FFF;
+	font-size:14px;
+}
+
+.select{
+	border-style: none none solid none;
+	background:#FFF;
+	width:138px;
+	margin-left:10px;
+	margin-top:14px;
+	margin-bottom:11px;
+	color:#B5B6B1;
+}
+
+.submit{
+	background-image:url(../imgs/search.gif);
+	border:0px;
+	width:111px;
+	height:37px;
+	color:#FCFCFD;
+	margin-left:21px;
+	margin-top:21px;
+}
+
+.right{
+	height:363px;
+	float:left;
+	margin-left:32px;
+	margin-top:33px;
+}
+
+.title{
+	width:632px;
+	height:51px;
+	background-color:#4F75B1;
+}
+
+.name{
+	float:left;
+	color:#FFF;
+	line-height:51px;
+	margin-left:11px;
+	font-weight:bold;
+}
+
+.path{
+	float:right;
+	margin-right:16px;
+	font-size:14px;
+	line-height:51px;
+}
+
+.sign{
+	color:#FFF;
+	background-color:#4F75B1;
+}
+
+.path a:link    	{color:  #FFF;}	/* 未访问的链接 */
+.path a:visited		{color:  #FFF;}	/* 已访问的链接 */
+.path a:hover   	{color:  #FFF;}	/* 鼠标移动到链接上 */
+.path a:active  	{color:  #FFF;}	/* 选定的链接 */
+
+.title2{
+	line-height:55px;
+	font-size:15px;
+	color:#8E8F91;
+	margin-left:6px;
+}
+
+.main table tr td{
+	line-height:26px;
+	font-size:14px;
+	color:#676869;
+	border-bottom:#B9B9BB 3px dotted;
+}
+
+.new_Lab{
+	width:150px;
+}
+
+.new_title{
+	width:400px;
+}
+
+.new_Lab a:link    	{color:#676869;}/* 未访问的链接 */
+.new_Lab a:visited	{color:#676869;}/* 已访问的链接 */
+.new_Lab a:hover   	{color:#676869;}/* 鼠标移动到链接上 */
+.new_Lab a:active  	{color:#676869;}/* 选定的链接 */
+
+.new_title a:link    	{color:#676869;}/* 未访问的链接 */
+.new_title a:visited	{color:#676869;}/* 已访问的链接 */
+.new_title a:hover   	{color:#676869;}/* 鼠标移动到链接上 */
+.new_title a:active  	{color:#676869;}/* 选定的链接 */
+
+.page{
+	text-align:center;
+	font-size:14px;
+	line-height:26px;
+}
+.page a{
+	margin-right:9px;
+}
+
+.page a:link    	{color:  #5C5D5E;}	/* 未访问的链接 */
+.page a:visited		{color:  #5C5D5E;}	/* 已访问的链接 */
+.page a:hover   	{color:  #5C5D5E;}	/* 鼠标移动到链接上 */
+.page a:active  	{color:  #5C5D5E;}	/* 选定的链接 */
+
+#footer{
+	width:100%;
+	height:49px;
+	background:#4F76B1;
+	padding-top:12px;
+}
+
+.footer_p{
+	text-align:center;
+	font-size:12px;
+	color:#FFF;
+	line-height:23px;
+}

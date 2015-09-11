@@ -1,0 +1,292 @@
+*{
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	font-family: Microsoft YaHei;
+}
+
+#head{
+	/*margin:0 auto;*/
+	width:990px;
+	height:468px;
+	background:url(../imgs/bg.fw.png) no-repeat;
+}
+
+.title{
+	height:60px;
+	/*width:394px;*/
+	padding-top:24px;
+	margin-left:22px;
+}
+/*右上角小导航*/
+/* .nav{
+	float:right;
+	margin-right:36px;
+	display:inline-block;
+	left:651px;
+	height:36px;
+	font-family:Microsoft YaHei;
+}
+
+.nav li{
+	margin-right:25px;
+	float:left;
+	font-size:16px;
+	font-weight:500;
+}
+
+.nav a:link     {color: #FFF;}	未访问的链接
+.nav a:visited	{color: #FFF;}	已访问的链接
+.nav a:hover   	{color: #FFF;}	鼠标移动到链接上
+.nav a:active  	{color: #FFF;}	选定的链接
+
+.line{
+	display:inline;
+	float:left;
+	color:#FFF;
+	font-weight:bold;
+	margin-right:27px;
+} */
+/*右上角小导航结束*/
+/*导航*/
+.navbar{
+	margin-left:132px;
+	margin-top:273px;
+}
+
+.navbar li{
+	float:left;
+	width:102px;
+	height:50px;
+	background:#FFF;
+	text-align:center;
+	line-height:50px;
+	font-family:Microsoft YaHei;
+}
+
+.navbar img{
+	float:left;
+}
+
+.navbar a:link      {color: #000;}	/* 未访问的链接 */
+.navbar a:visited	{color: #000;}	/* 已访问的链接 */
+.navbar a:hover   	{color: #000;}	/* 鼠标移动到链接上 */
+.navbar a:active  	{color: #000;}	/* 选定的链接 */
+/*导航结束*/
+
+#content{
+	margin:0 auto;
+	width:990px;
+	height:256px;
+	background:#FCFCF9;
+}
+
+.left{
+	float:left;
+	width:696px;/*29 21 362 284*/
+	padding-top:20px;
+}
+
+.slide{
+	width:284px;
+	height:168px;
+	overflow:hidden;
+	position:relative;
+	float:left;
+	margin-left:28px;
+	margin-right:19px;
+}
+
+.btn-l{
+	width:59px;
+	height:165px;
+	background:url(../imgs/btn-bg.png) no-repeat;
+	cursor:pointer;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:10;
+}
+
+.btn-l img{
+	cursor:pointer;
+	margin:74px 0 0 14px;
+}
+
+.btn-r{
+	width:59px;
+	height:165px;
+	background:url(../imgs/btn-bg.png) no-repeat;
+	cursor:pointer;
+	position:absolute;
+	top:0px;
+	right:0px;
+	z-index:10;
+}
+
+.btn-r img{
+	cursor:pointer;
+	margin:74px 0 0 14px;
+}
+
+.slide-content{
+	width:284px;
+	height:168px;
+	overflow:hidden;
+}
+
+.slide-content div{
+	width:2000px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:5;
+}
+
+.slide-content div img{
+	float:left;
+}
+
+.left_img{
+	float:left;
+	margin-top:5px;
+	margin-left:29px;
+	margin-right:21px;
+}
+
+.message{
+	float:left;
+	width:362px;
+	height:177px;
+	background:url(../imgs/message_bg.gif);
+	text-overflow:ellipsis;/*文字溢出的部分隐藏并用省略号代替*/
+   white-space:nowrap;/*文本不自动换行*/
+}
+
+.ms_title{
+	width:333px;
+	height:25px;
+	margin-top:16px;
+	margin-left:29px;
+	font-size:18px;
+}
+
+.ms_img{
+	float:left;
+	margin-left:30px;
+	margin-bottom:5px;
+}
+
+.more{
+	font-size: 14px;
+	margin-top: 11px;
+	margin-right: 19px;
+	margin-left: 175px;
+}
+
+.clear{
+	clear:both;
+}
+
+.message li{
+	margin-left:23px;
+	line-height:26px;
+	font-size:15px;
+}
+
+.message a:link     {color: #000;}	/* 未访问的链接 */
+.message a:visited	{color: #000;}	/* 已访问的链接 */
+.message a:hover   	{color: #000;}	/* 鼠标移动到链接上 */
+.message a:active  	{color: #000;}	/* 选定的链接 */
+
+.right{
+	width:267px;
+	height:178px;
+	margin-top:20px;
+	margin-left:11px;
+	float:left;
+	background:url(../imgs/login_bg.png);
+}
+/*登陆界面开始*/
+#login{
+	margin-top:17px;
+}
+
+.icon{
+	margin-left:28px;
+}
+
+.input{
+	vertical-align:top;
+	background:#FBFBFA;
+	border:none;
+	margin-left:6px;
+	width:162px;
+	height:30px;
+}
+
+.r_login_bbor{
+	margin-bottom:5px;
+	margin-left:28px;
+}
+
+.select{
+	vertical-align:top;
+	margin-left:6px;
+	background:#FBFBFA;
+	border:none;
+	width:162px;
+	height:30px;
+}
+
+.submit{
+	margin-left:27px;
+	border:0px;
+	width:206px;
+	height:30px;
+	background-image:url(../imgs/submit_bg.png);
+	color:#FFF;
+}
+
+
+.down-pop .down-ico1 {
+    background: url('../imgs/crown.gif') no-repeat scroll center center transparent;
+    float: left;
+    height: 30px;
+    line-height: 35px;
+    border-right: 1px solid #CCC;
+    padding-right: 8px;
+    width: 22px;
+}
+.down-pop{width:204px;background:#fff;position:relative;}
+.down-pop .down-ico2{width:13px;height:35px;line-height:35px;background:url(../imgs/a2.png) center no-repeat;float:right;cursor:pointer;}
+.down-pop .down-content{width:150px;height:35px;line-height:35px;float:left;text-indent:10px;cursor:pointer;}
+.down-pop .down-content div{width:160px;height:35px;line-height:35px;font-size:13px;color:#8a8a86;border:none;cursor:pointer;}
+.down-pop .down-hide{display:none;position:absolute;left:33px;top:35px;border-left:1px #ccc solid;border-right:1px #ccc solid;background:#FBFBFA;}
+.down-pop .down-hide div{width:160px;line-height:35px;font-size:14px;color:#8a8a86;text-indent:10px;border-bottom:1px #ccc solid;cursor:pointer;}
+.down-pop .down-hide div:hover{background:#ccc;color:#fff;}
+/*登陆界面结束*/
+.cont_bottom{
+	margin-left:65px;
+}
+
+.cont_bottom li{
+	float:left;
+	margin-top:26px;
+	margin-right:30px;
+	font-family:Microsoft YaHei;
+	font-size:14px;
+}
+
+.cont_bottom a:link     {color:#797978;}/* 未访问的链接 */
+.cont_bottom a:visited	{color:#797978;}/* 已访问的链接 */
+.cont_bottom a:hover   	{color:#797978;}/* 鼠标移动到链接上 */
+.cont_bottom a:active  	{color:#797978;}/* 选定的链接 */
+
+.line2{
+	float:left;
+	color:#ACABAB;
+	margin-top:26px;
+	margin-right:32px;
+}

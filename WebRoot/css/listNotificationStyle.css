@@ -1,0 +1,175 @@
+*{
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	font-family:Microsoft YaHei;
+}
+
+#head{
+	width:100%;
+	background-color:#F5F6F8;
+}
+
+.head_{
+	width:990px;
+	height:100px;
+	background:#F5F6F8;
+}
+
+.logo{
+	margin-top:14px;
+	margin-left:22px;
+}
+
+.nav{
+	float:right;
+	margin-top:33px;
+	margin-right:58px;
+}
+
+.nav li{
+	float:left;
+}
+
+.line{
+	float:left;
+	color:#797373;
+	margin-left:23px;
+	margin-right:17px;
+}
+
+.nav a:link     {color: #797373;}	/* 鏈闂殑閾炬帴 */
+.nav a:visited	{color: #797373;}	/* 宸茶闂殑閾炬帴 */
+.nav a:hover   	{color: #797373;}	/* 榧犳爣绉诲姩鍒伴摼鎺ヤ笂 */
+.nav a:active  	{color: #797373;}	/* 閫夊畾鐨勯摼鎺�*/
+
+.clear{
+	clear:both;
+}
+
+.navbar{
+	width:990px;
+	height:66px;
+	padding-top:135px;
+	background:url(../imgs/banner.png);
+}
+
+.navbar2{
+	margin-left:182px;
+}
+
+.navbar li{
+	float:left;
+	width:102px;
+	height:50px;
+	background:#FFF;
+	text-align:center;
+	line-height:50px;
+}
+
+.navbar img{
+	float:left;
+}
+
+.navbar a:link      {color:#919090;}	/* 鏈闂殑閾炬帴 */
+.navbar a:visited	{color:#919090;}	/* 宸茶闂殑閾炬帴 */
+.navbar a:hover   	{color:#919090;}	/* 榧犳爣绉诲姩鍒伴摼鎺ヤ笂 */
+.navbar a:active  	{color:#919090;}	/* 閫夊畾鐨勯摼鎺�*/
+/*瀵艰埅缁撴潫*/
+
+.banner{
+	display:block;
+}
+
+#content{
+	height:430px;
+	background:#F5F6F8;
+	padding-top:33px;
+}
+
+.main{
+	width:638px;
+	height:326px;
+}
+
+.title{
+	width:632px;
+	height:51px;
+	background-color:#4F75B1;
+}
+
+.name{
+	float:left;
+	color:#FFF;
+	line-height:51px;
+	margin-left:11px;
+	font-weight:bold;
+}
+
+.path{
+	float:right;
+	margin-right:16px;
+	font-size:14px;
+	line-height:51px;
+}
+
+.sign{
+	color:#FFF;
+	background-color:#4F75B1;
+}
+
+.path a:link    	{color:  #FFF;}	/* 鏈闂殑閾炬帴 */
+.path a:visited		{color:  #FFF;}	/* 宸茶闂殑閾炬帴 */
+.path a:hover   	{color:  #FFF;}	/* 榧犳爣绉诲姩鍒伴摼鎺ヤ笂 */
+.path a:active  	{color:  #FFF;}	/* 閫夊畾鐨勯摼鎺�*/
+
+.title2{
+	line-height:55px;
+	font-size:15px;
+	color:#8E8F91;
+	margin-left:6px;
+}
+
+.main table tr td{
+	line-height:26px;
+	font-size:14px;
+	color:#676869;
+	border-bottom:#B9B9BB 3px dotted;
+}
+
+.new_title{
+	width:531px;
+}
+
+.new_title a:link    	{color:#676869;}/* 鏈闂殑閾炬帴 */
+.new_title a:visited	{color:#676869;}/* 宸茶闂殑閾炬帴 */
+.new_title a:hover   	{color:#676869;}/* 榧犳爣绉诲姩鍒伴摼鎺ヤ笂 */
+.new_title a:active  	{color:#676869;}/* 閫夊畾鐨勯摼鎺�*/
+
+.page{
+	text-align:center;
+	font-size:14px;
+	line-height:26px;
+}
+.page a{
+	margin-right:9px;
+}
+
+.page a:link    	{color:  #5C5D5E;}	/* 鏈闂殑閾炬帴 */
+.page a:visited		{color:  #5C5D5E;}	/* 宸茶闂殑閾炬帴 */
+.page a:hover   	{color:  #5C5D5E;}	/* 榧犳爣绉诲姩鍒伴摼鎺ヤ笂 */
+.page a:active  	{color:  #5C5D5E;}	/* 閫夊畾鐨勯摼鎺�*/
+
+#footer{
+	height:49px;
+	background:#4F76B1;
+	padding-top:12px;
+}
+
+.footer_p{
+	text-align:center;
+	font-size:12px;
+	color:#FFF;
+	line-height:23px;
+}

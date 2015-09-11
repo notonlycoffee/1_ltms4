@@ -1,0 +1,92 @@
+*{
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	font-family:Microsoft YaHei;
+}
+
+#head{
+	width:100%;
+	background-color:#F5F6F8;
+}
+
+.head_{
+	width:990px;
+	height:100px;
+	background:#F5F6F8;
+}
+
+.logo{
+	width:341px;
+	height:60px;
+	margin-top:14px;
+	margin-left:22px;
+}/* 
+
+.nav{
+	float:right;
+	margin-top:33px;
+	margin-right:58px;
+	height:20px;
+}
+
+.nav li{
+	float:left;
+}
+
+.line{
+	float:left;
+	color:#797373;
+	margin-left:23px;
+	margin-right:17px;
+	width:5px;
+}
+
+.nav a{
+	font-size:17px;
+}
+
+.nav a:link     {color: #797373;}	鏈闂殑閾炬帴
+.nav a:visited	{color: #797373;}	宸茶闂殑閾炬帴
+.nav a:hover   	{color: #797373;}	榧犳爣绉诲姩鍒伴摼鎺ヤ笂
+.nav a:active  	{color: #797373;}	閫夊畾鐨勯摼鎺�
+
+ */
+.navbar{
+	width:990px;
+	height:66px;
+	padding-top:135px;
+	background:url(../imgs/banner.png);
+}
+
+.navbar2{
+	margin-left:132px;
+}
+
+.navbar li{
+	float:left;
+	width:102px;
+	height:50px;
+	background:#FFF;
+	text-align:center;
+	line-height:50px;
+}
+
+.navbar img{
+	float:left;
+}
+
+.navbar a{
+	font-size:16px;
+}
+
+.navbar a:link      {color:#919090;}	/* 鏈闂殑閾炬帴 */
+.navbar a:visited	{color:#919090;}	/* 宸茶闂殑閾炬帴 */
+.navbar a:hover   	{color:#919090;}	/* 榧犳爣绉诲姩鍒伴摼鎺ヤ笂 */
+.navbar a:active  	{color:#919090;}	/* 閫夊畾鐨勯摼鎺�*/
+/*瀵艰埅缁撴潫*/
+
+.banner{
+	display:block;
+}

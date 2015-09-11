@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<mime-mapping> 
+        <extension>doc </extension> 
+        <mime-type>application/vnd.ms-word </mime-type> 
+    </mime-mapping> 
+    
+    <mime-mapping> 
+        <extension>xls </extension> 
+        <mime-type>application/vnd.ms-excel </mime-type> 
+	</mime-mapping> 
+	<filter>
+    	<filter-name>loginCheck</filter-name>
+    	<filter-class>com.ltms.util.LoginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>loginCheck</filter-name>
+		<url-pattern>/admin/*</url-pattern>
+	</filter-mapping>	
+<!-- ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●● -->				
+	<servlet>
+	    <servlet-name>LoginServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>LoginServlet</servlet-name>
+	    <url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>AdminServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.AdminServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>AdminServlet</servlet-name>
+	    <url-pattern>/admin/AdminServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>ExperimentServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.ExperimentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>ExperimentServlet</servlet-name>
+	    <url-pattern>/ExperimentServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>ExperimentServlet</servlet-name>
+	    <url-pattern>/admin/ExperimentServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>ClassServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.ClassServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>ClassServlet</servlet-name>
+	    <url-pattern>/admin/ClassServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>LaboratoryServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.LaboratoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>LaboratoryServlet</servlet-name>
+	    <url-pattern>/admin/LaboratoryServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>LaboratoryServlet</servlet-name>
+	    <url-pattern>/LaboratoryServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>SyllabusServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.SyllabusServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>SyllabusServlet</servlet-name>
+	    <url-pattern>/admin/SyllabusServlet</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+	    <servlet-name>SyllabusServlet</servlet-name>
+	    <url-pattern>/SyllabusServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>TeacherServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.TeacherServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>TeacherServlet</servlet-name>
+	    <url-pattern>/admin/TeacherServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>CourseServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.CourseServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>CourseServlet</servlet-name>
+	    <url-pattern>/admin/CourseServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>DatabaseServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.DatabaseServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>DatabaseServlet</servlet-name>
+	    <url-pattern>/admin/DatabaseServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>KeyLabServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.KeyLabServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>KeyLabServlet</servlet-name>
+	    <url-pattern>/admin/KeyLabServlet</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+	    <servlet-name>KeyLabServlet</servlet-name>
+	    <url-pattern>/KeyLabServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>NotificationServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.NotificationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>NotificationServlet</servlet-name>
+	    <url-pattern>/admin/NotificationServlet</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+	    <servlet-name>NotificationServlet</servlet-name>
+	    <url-pattern>/NotificationServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>RegulationServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.RegulationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>RegulationServlet</servlet-name>
+	    <url-pattern>/admin/RegulationServlet</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+	    <servlet-name>RegulationServlet</servlet-name>
+	    <url-pattern>/RegulationServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>ScheduleServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.ScheduleServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>ScheduleServlet</servlet-name>
+	    <url-pattern>/admin/ScheduleServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>ScheduleServlet</servlet-name>
+	    <url-pattern>/ScheduleServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>SystemConfigServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.SystemConfigServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>SystemConfigServlet</servlet-name>
+	    <url-pattern>/admin/SystemConfigServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>ExItemServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.ExItemServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>ExItemServlet</servlet-name>
+	    <url-pattern>/ExItemServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>LinkServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.LinkServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>LinkServlet</servlet-name>
+	    <url-pattern>/admin/LinkServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>LogServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.LogServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>LogServlet</servlet-name>
+	    <url-pattern>/admin/LogServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>IndexBannerServlet</servlet-name>
+	    <servlet-class>com.ltms.servlet.IndexBannerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>IndexBannerServlet</servlet-name>
+	    <url-pattern>/admin/IndexBannerServlet</url-pattern>
+	</servlet-mapping>
+<!-- 配置在线编辑器文件上传组件CKfinder ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●-->
+  <servlet>
+	<servlet-name>ConnectorServlet</servlet-name>
+	<servlet-class>com.ckfinder.connector.ConnectorServlet</servlet-class>
+	<init-param>
+		<param-name>XMLConfig</param-name>
+		<param-value>/WEB-INF/config.xml</param-value>
+	</init-param>
+	<init-param>
+		<param-name>debug</param-name>
+		<param-value>false</param-value>
+	</init-param>
+	<load-on-startup>1</load-on-startup>
+ </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProfessionServlet</servlet-name>
+    <servlet-class>com.ltms.servlet.ProfessionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DbfServlet</servlet-name>
+    <servlet-class>com.ltms.servlet.DbfServlet</servlet-class>
+  </servlet>
+
+
+ <servlet-mapping>
+	<servlet-name>ConnectorServlet</servlet-name>
+	<url-pattern>
+		/admin/ckfinder/core/connector/java/connector.java
+	</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProfessionServlet</servlet-name>
+    <url-pattern>/admin/ProfessionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DbfServlet</servlet-name>
+    <url-pattern>/admin/DbfServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>DbfServlet</servlet-name>
+    <url-pattern>/DbfServlet</url-pattern>
+  </servlet-mapping>
+<!-- ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●● -->		
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+		
+</web-app>

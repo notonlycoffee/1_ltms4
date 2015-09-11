@@ -1,0 +1,39 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sysxt:war exploded">
+    <output-path>$PROJECT_DIR$/WebRoot/WEB-INF/classes/artifacts/sysxt_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sysxt" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="mysql-connector-java-5.1.21-bin.jar" module-name="sysxt" />
+          <element id="library" level="module" name="CKFinder-2.0.2.jar" module-name="sysxt" />
+          <element id="library" level="module" name="CKFinderPlugin-FileEditor-2.0.2.jar" module-name="sysxt" />
+          <element id="library" level="module" name="CKFinderPlugin-ImageResize-2.0.2.jar" module-name="sysxt" />
+          <element id="library" level="module" name="Thumbnailator-0.3.3.jar" module-name="sysxt" />
+          <element id="library" level="module" name="ckeditor-java-core-3.5.3-javadoc.jar" module-name="sysxt" />
+          <element id="library" level="module" name="ckeditor-java-core-3.5.3-sources.jar" module-name="sysxt" />
+          <element id="library" level="module" name="ckeditor-java-core-3.5.3.jar" module-name="sysxt" />
+          <element id="library" level="module" name="commons-beanutils-1.8.0.jar" module-name="sysxt" />
+          <element id="library" level="module" name="commons-collections-3.1.jar" module-name="sysxt" />
+          <element id="library" level="module" name="commons-dbcp-1.4.jar" module-name="sysxt" />
+          <element id="library" level="module" name="commons-fileupload-1.2.2.jar" module-name="sysxt" />
+          <element id="library" level="module" name="commons-io-2.0.1.jar" module-name="sysxt" />
+          <element id="library" level="module" name="commons-lang-2.4.jar" module-name="sysxt" />
+          <element id="library" level="module" name="commons-lang3-3.1.jar" module-name="sysxt" />
+          <element id="library" level="module" name="commons-logging-1.1.1.jar" module-name="sysxt" />
+          <element id="library" level="module" name="commons-pool-1.6.jar" module-name="sysxt" />
+          <element id="library" level="module" name="commons.httpclient-3.1.0.jar" module-name="sysxt" />
+          <element id="library" level="module" name="jspsmartupload.jar" module-name="sysxt" />
+          <element id="library" level="module" name="jstl.jar" module-name="sysxt" />
+          <element id="library" level="module" name="iText-5.0.2.jar" module-name="sysxt" />
+          <element id="library" level="module" name="iTextAsian.jar" module-name="sysxt" />
+          <element id="library" level="module" name="jxl.jar" module-name="sysxt" />
+          <element id="library" level="module" name="poi-3.9-20121203.jar" module-name="sysxt" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="sysxt/web/Web" />
+    </root>
+  </artifact>
+</component>

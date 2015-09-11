@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+/*这是实验室一览的css样式*/
+.general_name{
+	display:block;
+	margin-left:12px;
+	margin-top:20px;
+	margin-bottom:6px;
+	font-size:14px;
+	float:left;
+}
+.return{
+	float:right;
+	margin-top:8px;
+	margin-right:20px;
+}
+.ge_width{
+	width:100%;
+}
+.general_list ul li{
+	height:24px;
+	line-height:24px;
+	font-size:13px;
+	padding-top:10px;
+	padding-left:20px;
+	border-bottom:1px dotted #000;
+}
+.general_list ul li p{
+	float:left;
+	font-size:14px;
+	color: #676869;
+    overflow: hidden;
+	white-space: nowrap; 
+	-o-text-overflow: ellipsis; 
+	text-overflow: ellipsis;
+	width:720px;
+	text-align:left;
+}
+.general_list span{
+	margin-right: 5px;
+	float: right;
+}
+.sort_page{
+	margin-top:10px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+}
+/*实验课表的css*/
+.subject_content table tr td p a{
+	font-size: 12px;
+	float: left;
+	text-indent: 10px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	overflow: hidden;
+	width: 96%;
+	text-align: left;
+}
+.week{
+	width:100px;
+	background:#F7FDFF;
+	height:222px;
+	line-height:222px;
+	text-align:center;
+}
+.subject_content span{
+	color:#0CF;
+	text-align:left;
+}
+#out_table_ltms{
+	width:956px;
+}
+#out_table_ltms tr td{
+	border-top:1px solid #D6D6D6;
+}
+.in_table_ltms{
+	height:450px;
+	width:856px;
+	border:none;
+}
+.in_table_ltms tr {
+	border-top:none;
+}
+.in_table_ltms tr td{
+	border:none;
+	border-left:1px solid #D6D6D6;
+}
+.in_table_ltms_time{
+	width:10%;
+	text-align:center;
+}
+.in_table_ltms_ex{
+	width:90%;
+	padding:10px 0;
+}
+/*实验室信息内容的css*/
+.subject_content2 table tr td p a{
+	font-size: 14px;
+	float: left;
+	text-indent: 10px;
+}
+.subject_content2 table{
+	width:956px;
+	margin-bottom:10px;
+}
+.subject_content2 table tr td{
+	border:1px solid #D6D6D6;
+	padding:20px 0;
+	font-size: 14px;
+}
+.basic{
+	width:25%;
+	text-align:center;
+}
+.subject_content2 ul{
+	margin-left:10px;
+	margin-top:5px;
+	color: #676869;
+}
+.subject_content2 span{
+	color:#000;
+	text-align:left;
+}
+.infor{
+	width:25%;
+	text-align:center;
+}
+.img_pos{
+	margin-top:12px;
+	margin-left:8px;
+}
+.img_pos a img{
+	width:224px;
+	height:149px;
+}
+/*.cours{
+	width:600px;
+	border:1px solid #CCC;
+	border-left:none;
+}
+.cours ul li{
+	margin:0;
+}*/
+/*.cours table{
+	width:100%;
+}
+.cours table tr td{
+	border:1px solid #CCC;
+	border-bottom:none;
+	border-right:none;
+	height:28px;
+}
+.cours table th{
+	background:#FDF5F5;
+	border-left:1px solid #CCC;
+	height:28px;
+	color:#666666;
+}*/
+/*这是项目管理的css*/
+.projects{
+	width:956px;
+/*	height:960px;*/
+	margin-left:12px;
+	margin-top:24px;
+}
+.projects table{
+	width:956px;
+	border:1px solid #D6D6D6;
+}
+.projects table caption{
+	font-size:13px;
+	height:23px;
+	border:none;
+	background:#28C1F9;
+	text-align:left;
+	padding-top:5px;
+	padding-left:8px;
+}
+.projects table tr{
+	width:100%;
+}
+.projects table tr td{
+	border:1px solid #D6D6D6;
+	text-align:left;
+	height:28px;
+	text-indent: 10px;
+}
+.name{
+	width:30%;
+}
+.message{
+	height:190px;
+	text-align:left;
+}
+.message show ul li{
+	list-style:none;
+}
+.message ul li{
+	list-style:none;
+  width: 740px;
+}
+.message ul li a{
+	font-size:12px;
+	float:left;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	overflow: hidden;
+	width: 96%;
+}
+.message show ul li a{
+}
+.sysPicList{}
+.sysPicList li {float:left;
+margin-left:10px;}
+
+.picList{ padding:10px 0}
+
+.anPaiList{width:96%!important; margin-left:10px!important; border-bottom:1px solid #33CCCC; height:26px; margin-top:-10px!important}
+.anPaiList li{float:left;width:23px;height:26px; margin-left:2px; text-align:center; vertical-align:middle; background:url(../images/a2.gif) no-repeat left top; color:#fff; font-weight:bold}
+.moveOn{ background:url(../images/a1.gif) no-repeat left top!important;}
+.contentBox{margin-top:10px;}
+.show{ display:block}
